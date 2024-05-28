@@ -1,0 +1,63 @@
+Name: ipykernel
+Version: 5.5.6
+Summary: IPython Kernel for Jupyter
+Home-page: https://ipython.org
+Author: IPython Development Team
+Author-email: ipython-dev@scipy.org
+License: BSD
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: ipython, ipython-genutils, jupyter-client, tornado, traitlets
+Required-by: google-colab, ipywidgets, jupyter-console, nbclassic, notebook
+---
+Name: numpy
+Version: 1.23.5
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: 
+License: BSD
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: 
+Required-by: albumentations, altair, arviz, astropy, autograd, blis, bokeh, bqplot, chex, cmdstanpy, contourpy, cufflinks, cvxpy, datascience, db-dtypes, dopamine-rl, ecos, flax, folium, geemap, gensim, gym, h5py, holoviews, hyperopt, imageio, imbalanced-learn, imgaug, jax, jaxlib, librosa, lightgbm, matplotlib, matplotlib-venn, missingno, mizani, ml-dtypes, mlxtend, moviepy, music21, nibabel, numba, numexpr, opencv-contrib-python, opencv-python, opencv-python-headless, opt-einsum, optax, orbax-checkpoint, osqp, pandas, pandas-gbq, patsy, plotnine, prophet, pyarrow, pycocotools, pyerfa, pymc, pytensor, python-louvain, PyWavelets, qdldl, qudida, scikit-image, scikit-learn, scipy, scs, seaborn, shapely, sklearn-pandas, soxr, spacy, stanio, statsmodels, tables, tensorboard, tensorflow, tensorflow-datasets, tensorflow-hub, tensorflow-probability, tensorstore, thinc, tifffile, torchtext, torchvision, wordcloud, xarray, xarray-einstats, xgboost, yellowbrick, yfinance
+---
+Name: pandas
+Version: 1.5.3
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: https://pandas.pydata.org
+Author: The Pandas Development Team
+Author-email: pandas-dev@python.org
+License: BSD-3-Clause
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: numpy, python-dateutil, pytz
+Required-by: altair, arviz, bokeh, bqplot, cmdstanpy, cufflinks, datascience, db-dtypes, dopamine-rl, fastai, geemap, geopandas, google-colab, gspread-dataframe, holoviews, mizani, mlxtend, pandas-datareader, pandas-gbq, panel, plotnine, prophet, pymc, seaborn, sklearn-pandas, statsmodels, vega-datasets, xarray, yfinance
+---
+Name: matplotlib
+Version: 3.7.1
+Summary: Python plotting package
+Home-page: https://matplotlib.org
+Author: John D. Hunter, Michael Droettboom
+Author-email: matplotlib-users@python.org
+License: PSF
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: contourpy, cycler, fonttools, kiwisolver, numpy, packaging, pillow, pyparsing, python-dateutil
+Required-by: arviz, datascience, fastai, geemap, imgaug, matplotlib-venn, missingno, mizani, mlxtend, music21, plotnine, prophet, pycocotools, seaborn, wordcloud, yellowbrick
+---
+Name: seaborn
+Version: 0.12.2
+Summary: Statistical data visualization
+Home-page: 
+Author: 
+Author-email: Michael Waskom <mwaskom@gmail.com>
+License: 
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: matplotlib, numpy, pandas
+Required-by: missingno
+
+Name: streamlit
+Version: 1.27.2
+Summary: A faster way to build and share data apps
+Home-page: https://streamlit.io
+Author: Snowflake Inc
+Author-email: hello@streamlit.io
+License: Apache License 2.0
+
